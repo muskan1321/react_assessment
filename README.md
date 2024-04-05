@@ -39,9 +39,9 @@ Follow these steps to create a Docker image for your React application and deplo
 ## Create a "Dockerfile" for React application
 ## Build a Docker Image:
 Run the following command to build the Docker image:
-
->> docker build -t <dockerhub-id>/react-app:latest .
-
+```
+ docker build -t <dockerhub-id>/react-app:latest .
+```
 ## To push the Docker image to Docker Hub:
 ```
  docker push <dockerhub-id>/react-app:latest
