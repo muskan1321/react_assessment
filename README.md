@@ -43,8 +43,9 @@ Run the following command to build the Docker image:
 >> docker build -t <dockerhub-id>/react-app:latest .
 
 ## To push the Docker image to Docker Hub:
- >> docker push <dockerhub-id>/react-app:latest
-
+'''
+ docker push <dockerhub-id>/react-app:latest
+'''
 ## Create an Amazon EKS Cluster:
 Create an EKS cluster using eksctl with the following command:
 
